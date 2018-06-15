@@ -1,9 +1,9 @@
 {
-    "rules": {
-        ".read": true,
-        ".write": true,
-        "test": {
-            ".indexOn": "id"
-        }
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null",
+    "test": {
+      ".indexOn": "id"
     }
+  }
 }
