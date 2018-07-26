@@ -3,3 +3,4 @@ coverage
 npm-debug.log
 
 service-key.json
+test-service-key.json

@@ -4,6 +4,9 @@
     ".write": "auth != null",
     "test": {
       ".indexOn": "id"
+    },
+    "transactions": {
+      ".indexOn": "published"
     }
   }
 }
